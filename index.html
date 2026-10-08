@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>♥ Сюрприз для Кати ♥</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas id="greetingCanvas"></canvas>
+
+    <!-- Заставка -->
+    <div class="intro" id="intro">
+        <div class="intro-title" aria-label="Катя">
+            <span class="letter" style="--i:0">К</span><span class="letter" style="--i:1">а</span><span class="letter" style="--i:2">т</span><span class="letter" style="--i:3">я</span>
+        </div>
+        <div class="intro-sub">У меня для тебя сюрприз…</div>
+        <button class="open-btn" id="openBtn">Открыть ♥</button>
+        <div class="intro-hint">🔔 включи звук</div>
+    </div>
+
+    <div class="caption" id="styleCaption">✨ Сердце из слов «I LOVE YOU» ✨</div>
+    <div class="controls">
+        <button class="btn active" data-style="heart">💖 Сердце</button>
+        <button class="btn" data-style="rain">🌧️ Любовный дождь</button>
+        <button class="btn" data-style="balloons">🎈 Воздушные шары</button>
+        <button class="btn" data-style="fireflies">✨ Светлячки любви</button>
+        <button class="btn" data-style="wave">🌊 Волна признаний</button>
+    </div>
+
+    <button class="sound-btn" id="soundBtn" title="Включить / выключить звук">🔊</button>
+
+    <div class="replay" id="replay">
+        <button class="btn replay-btn" id="replayBtn">🔄 Ещё раз</button>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
